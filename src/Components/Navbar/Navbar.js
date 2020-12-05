@@ -27,7 +27,7 @@ function Navbar() {
     <>
       <div className="nav-wrapper">
         <div className="brand-top">
-          <img className="logo-img" src="/images/eln1.jpg" alt="" />
+          <img className="logo-img" src="images/eln1.jpg" alt="elndraws" />
           <div className="name-title">eln paath</div>
         </div>
         <div className="navbar">
