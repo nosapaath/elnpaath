@@ -1,0 +1,96 @@
+@import url("https://use.typekit.net/hji6emp.css");
+
+.nav-wrapper {
+  height: 350px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-top {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  border: transparent;
+  border-radius: 50%;
+  margin: 50px 0 35px 0;
+  height: 150px;
+  width: auto;
+}
+
+.name-title {
+  font-family: proxima-nova, sans-serif;
+  color: #000000;
+  opacity: 50%;
+  text-transform: uppercase;
+  padding: 0 17px 17px 17px;
+}
+.menu-icon {
+  display: none;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar-container {
+  width: 100%;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0 30px;
+  position: relative;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav-links {
+  color: #000000;
+  opacity: 50%;
+  text-decoration: none;
+  display: inline-block;
+  font-family: proxima-nova, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav-links:hover {
+  opacity: 100%;
+  cursor: cursor;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+/* .nav-menu:before {
+  content: "";
+  display: block;
+  width: 180px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background: #9e9e9e;
+}
+.nav-menu:after {
+  content: "";
+  display: block;
+  width: 180px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  background: #9e9e9e;
+} */
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 768px) {
+}

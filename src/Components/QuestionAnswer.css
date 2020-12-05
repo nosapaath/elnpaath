@@ -1,0 +1,15 @@
+.qna__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.title h2 {
+  font-weight: bold;
+  font-family: Merriweather, sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+  opacity: 0.7;
+}
